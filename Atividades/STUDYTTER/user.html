@@ -1,11 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studytter</title>
+    <!--SENHA Flickr ->  jiJ}vi02tC(4  -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
     
     <style>
-    
+    	
+        h1{
+          font-family: 'Tenor Sans', sans-serif;
+        }
+        h2{
+          font-family: 'Yeseva One', cursive;
+          font-size: 60px;
+        }
         input[type=text], input[type=password] {
           width: 100%;
           padding: 12px 20px;
@@ -16,8 +29,8 @@
         }
 
         img {
-        	width: 100px;
-            height: 100px;
+        	width: 150px;
+            height: 150px;
         	border-radius: 50%;
             
         }
@@ -33,6 +46,9 @@
           justify-content: flex-start;
 		  
         }
+        .email {
+          background-color: red;
+        }
 	</style>
 
 </head>
@@ -41,25 +57,27 @@
 	 
   
 	<div class="container">
-    
-        <img src="https://w7.pngwing.com/pngs/575/29/png-transparent-computer-icons-instructor-led-training-course-education-toolbox-miscellaneous-blue-angle.png" alt="W3Schools.com">
+        
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/199128593@N03/53184732016/in/dateposted-public/lightbox/" title="Logo"><img src="https://live.staticflickr.com/65535/53184732016_da74e54af2.jpg" width="470" height="461" alt="Logo"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
        
        
         <h1>Studytter</h1>
        
        
         
-        <h2>FAÇA O SEU LOGIN</h2>
+        <h2>Faça Seu Login</h2>
 
 
 
-
-		<label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        
+        <div class="email">
+            
+          <label for="email"></label>
+          <input type="text" placeholder="Nome" name="email" required>
+          
+          <label for="psw"></label>
+          <input type="password" placeholder="Senha" name="psw" required>
+            
+        </div>
 
 	</div>
    
