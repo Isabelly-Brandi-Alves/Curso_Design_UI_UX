@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studytter</title>
-    <!--SENHA Flickr ->  jiJ}vi02tC(4  -->
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
-    
-    <style>
-    	
-        h1{
-          font-family: 'Tenor Sans', sans-serif;
-        }
-        h2{
-          font-family: 'Yeseva One', cursive;
-          font-size: 60px;
-        }
-        input[type=text], input[type=password] {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studytter</title>
+  <!--SENHA Flickr ->  jiJ}vi02tC(4  -->
 
-        img {
-        	width: 150px;
-            height: 150px;
-        	border-radius: 50%;
-            
-        }
-        body {
-          background-color: #FFFFFF;
-          text-align: center;
-    
-        }
-        .container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: flex-start;
-		  
-        }
-        .email {
-          background-color: red;
-        }
-	</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
 
+
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right-o.css' rel='stylesheet'>
+
+
+  <style>
+    
+    h1{
+      margin-top: 1%;
+      font-family: 'Tenor Sans', sans-serif;
+      font-size: 20px;
+    }
+    h2{
+      font-family: 'Yeseva One', cursive;
+      font-size: 30px;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 10px 10px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 0;
+      border-radius: 20px;
+      box-sizing: border-box;
+      background-color: #DAF6FF;
+      font-family: 'Tenor Sans', sans-serif;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    img {
+      width: 18%;
+      height: 18%;
+      border-radius: 50%;
+        
+    }
+    body {
+      background-color: #FFFFFF;
+      text-align: center;
+      margin-top: 20%;
+      margin-bottom: 35%;
+
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+  
+    }
+    .email {
+      color: Tomato;
+    }
+
+    .empty {
+      height: 50px;
+    }
+    
+    .gg-arrow-right-o {
+      text-align: center;
+      background-color: #DAF6FF;
+    }
+    .icon {
+      display: inline-block;
+          width: 100%;  	  
+    }
+
+    td i {
+      text-align: center;
+    }
+
+  </style>
+
+    
 </head>
 
 <body>
@@ -58,29 +90,33 @@
   
 	<div class="container">
         
-        <a data-flickr-embed="true" href="https://www.flickr.com/photos/199128593@N03/53184732016/in/dateposted-public/lightbox/" title="Logo"><img src="https://live.staticflickr.com/65535/53184732016_da74e54af2.jpg" width="470" height="461" alt="Logo"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/199128593@N03/53184732016/in/dateposted-public/lightbox/" title="Logo"><img src="https://live.staticflickr.com/65535/53184732016_da74e54af2.jpg" width="470" height="461" alt="Logo"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  
+  
+    <h1>Studytter</h1>
        
-       
-        <h1>Studytter</h1>
-       
-       
+    <div class="empty">
+ 	  </div>
         
-        <h2>Faça Seu Login</h2>
+    <h2>Faça Seu Login</h2>
 
 
 
-        <div class="email">
-            
-          <label for="email"></label>
-          <input type="text" placeholder="Nome" name="email" required>
-          
-          <label for="psw"></label>
-          <input type="password" placeholder="Senha" name="psw" required>
-            
-        </div>
-
+    <div>
+      
+      <label for="email" class="email"></label>
+      <input type="text" placeholder="Nome" name="email" required>
+    
+      <label for="psw"></label>
+      <input type="password" placeholder="Senha" name="psw" required>
+      
+    </div>
+	
 	</div>
-   
+  	
+	<div class="icon">
+	  <i class="gg-arrow-right-o"></i>
+	</div>
 
 </body>
 </html>
