@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studytter</title>
+  <title>Cadastro Aluno</title>
 
   <!-- BOOTSTRAP -->
 
@@ -30,10 +30,9 @@
       font-family: 'Yeseva One', cursive;
       font-size: 30px;
     }
-    input[type=text], input[type=password] {
+    input[type=text], input[type=password], input[type=tel] {
       width: 100%;
       padding: 10px 10px;
-      margin: 5px 0;
       display: inline-block;
       border: 0;
       border-radius: 20px;
@@ -98,14 +97,23 @@
     <div class="empty">
  	  </div>
         
-    <h2>Faça Seu Login</h2>
+    <h2>Cadastro Aluno</h2>
 
 
 
     <div>
       
-      <label for="email" class="email"></label>
-      <input type="text" placeholder="Nome" name="email" required>
+      <label for="nome" class="nome"></label>
+      <input type="text" placeholder="Nome" name="nome" required>
+      
+      <label for="sobrenome" class="sobrenome"></label>
+      <input type="text" placeholder="Sobrenome" name="sobrenome" required>
+      
+      <label for="usuario" class="usuario"></label>
+      <input type="text" placeholder="Usuário" name="usuario" required>
+      
+      <label for="telefone" class="telefone"></label>
+      <input type="tel" placeholder="Telefone" name="telefone" required>
     
       <label for="psw"></label>
       <input type="password" placeholder="Senha" name="psw" required>
