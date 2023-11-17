@@ -20,6 +20,26 @@
 
 
   <style>
+  	
+    /* GERAL */
+    
+    body {
+      background-color: #FFFFFF;
+      text-align: center;
+      margin-bottom: 35%;
+
+    } 
+    header {
+        padding-top: 10px;
+        padding-bottom: 3px;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        margin-left: 175px;
+        margin-right: 170px;
+        
+    }  
+    
+    /* TEXTOS */
     
     h1{
       margin-top: 1%;
@@ -28,30 +48,37 @@
     }
     h2{
       font-family: 'Yeseva One', cursive;
-      font-size: 40px;
+      font-size: 30px;
     }
     p{
-	  font-size: 25px;
+	  font-size: 20px;
 	}
+    
+    /* DIVERSOS */
+    
     img {
       width: 18%;
       height: 18%;
       border-radius: 50%;
-        
     }
-    body {
-      background-color: #FFFFFF;
-      text-align: center;
-      margin-top: 20%;
-      margin-bottom: 35%;
-
+    
+    /* CLASSES */
+    
+    .logo {
+        width: 40px;
     }
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-  
+    .header{
+    	width: 100vw;
+ 		height: 35vh;
+        border-top-left-radius: 0% 100%;
+        border-top-right-radius: 0% 100%;
+  		border-bottom-left-radius: 90% 100%;
+  		border-bottom-right-radius: 0% 100%;
+  		background: #42C6F2;
+    }
+    .text{
+    	margin-left: 80px;
+        margin-right: 80px;
     }
     .email {
       color: Tomato;
@@ -59,6 +86,12 @@
 
     .empty {
       height: 50px;
+      margin-right: 500px;
+      margin-left: 500px;
+    }
+    
+    .empty2 {
+      height: 20px;
       margin-right: 500px;
       margin-left: 500px;
     }
@@ -77,24 +110,39 @@
 </head>
 
 <body>
-	 
-  
-	<div class="container">
-        
-    <a data-flickr-embed="true" href="https://www.flickr.com/photos/199128593@N03/53184732016/in/dateposted-public/lightbox/" title="Logo"><img src="https://live.staticflickr.com/65535/53184732016_da74e54af2.jpg" width="470" height="461" alt="Logo"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-  
-  
-    <h1>Studytter</h1>
-       
+
+	<!--  HEADER  -->
+    
+    
+    <div class="header">
+    <div class="empty2">
+ 	  </div>
+      <header>
+          <h1><img src="https://live.staticflickr.com/65535/53184732016_da74e54af2.jpg" alt="Logo" class="logo"> Studytter</h1>
+      </header>
+    </div>
+    
     <div class="empty">
  	  </div>
-        
-    <h2>Seja Bem-Vindo</h2>
+      
+      
+      
+    <!--  TEXTOS  -->
     
+    <div class="text">
+        
+    <h2>Seja Bem-Vindo!</h2>
+    
+    <div class="empty">
+ 	  </div>
+      
     <p>Ao ambiente de interação e comunicação entre alunos, professores e gestores educacionais.</p>
-	
+    
 	</div>
   	
+    <!--  ÍCONES  -->
+    
+    
 	<div class="icon">
       
       <a href="https://tse4.mm.bing.net/th?id=OIP.40UQcy4H44hjkXBXrko2FAHaEo&pid=Api&P=0&h=180" class="d-flex align-items-center text-dark text-decoration-none" >
